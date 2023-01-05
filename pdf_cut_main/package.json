@@ -1,0 +1,22 @@
+{
+  "name": "pdf_cut_main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "glob": "^8.0.3",
+    "node-ebook-converter": "^1.0.11",
+    "path": "^0.12.7",
+    "pdf-merger-js": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
